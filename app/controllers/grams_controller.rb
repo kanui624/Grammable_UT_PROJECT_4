@@ -4,4 +4,8 @@ class GramsController < ApplicationController
 
   end
 
+  def new 
+    @gram = Gram.new
+  end
+
 end
